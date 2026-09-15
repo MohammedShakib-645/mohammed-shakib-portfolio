@@ -101,6 +101,6 @@ export const certifications = [
     grade: 'ELITE',
     period: 'JAN–FEB 2026',
     duration: '4-WEEK COURSE',
-    href: 'https://onlinecourses.nptel.ac.in/noc26_cs80/preview',
+    href: '/assets/nptel-python-data-science.pdf',
   },
 ]
