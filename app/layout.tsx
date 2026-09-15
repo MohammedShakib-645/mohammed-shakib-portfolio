@@ -6,6 +6,7 @@ const display = Space_Grotesk({ subsets: ['latin'], variable: '--font-display', 
 const body = Inter({ subsets: ['latin'], variable: '--font-body', display: 'swap' })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://mohammedshakib-645.github.io'),
   title: 'Mohammed Shakib — CSE (AI & ML) Student',
   description: 'The portfolio of Mohammed Shakib, a B.Tech CSE (AI & ML) student at Sphoorthy Engineering College, JNTUH, Hyderabad. Learning, building projects, and exploring AI, software and web development.',
   authors: [{ name: 'Mohammed Shakib' }],
