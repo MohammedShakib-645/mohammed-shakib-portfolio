@@ -2,7 +2,6 @@ import { ArrowDownRight, ArrowUpRight, ArrowRight, Award, Download, GitBranch } 
 import Image from 'next/image'
 import { certifications, profile } from '@/lib/portfolio'
 import { ContactForm } from '@/components/contact-form'
-import { CountUp } from '@/components/count-up'
 
 export function SectionLabel({ number, children }: { number: string; children: React.ReactNode }) {
   return <div className="section-label"><span>{number} /</span><span>{children}</span></div>
@@ -14,7 +13,7 @@ export function AboutSection() {
       <div className="section-top" data-reveal><SectionLabel number="01">WHO I AM</SectionLabel><span className="eyebrow secondary-text">CURIOSITY IS THE STARTING POINT.</span></div>
       <div className="about-layout">
         <div data-reveal><h2 className="editorial-heading">I&apos;M A COMPUTER<br />SCIENCE STUDENT<br /><span className="soft-text">BUILDING MY WAY</span><br /><span className="soft-text">INTO AI & SOFTWARE.</span></h2><div className="about-copy"><ArrowDownRight size={29} strokeWidth={1} /><p>I&apos;m Mohammed, a CSE (AI & ML) student at Sphoorthy Engineering College, JNTUH. I&apos;m learning the fundamentals, building practical projects, and following my curiosity into AI, machine learning, and the web.<br /><br />Not an expert. Just someone who enjoys figuring things out—and making the next thing a little better.</p></div></div>
-        <aside className="academic-stats" aria-label="Current academic standing" data-reveal><div><span className="stat-value"><CountUp end={2} pad={2} /><span>/</span></span><span className="eyebrow">YEAR</span></div><div><span className="stat-value"><CountUp end={3} pad={2} /><span>/</span></span><span className="eyebrow">SEMESTER</span></div><div><span className="stat-value"><CountUp end={8.34} decimals={2} /><span>↗</span></span><span className="eyebrow">FIRST YEAR CGPA</span></div><p className="stats-note">One semester at a time.<br />A little further every day.</p></aside>
+        <aside className="academic-stats" aria-label="Current academic standing" data-reveal><div><span className="stat-value">02<span>/</span></span><span className="eyebrow">YEAR</span></div><div><span className="stat-value">03<span>/</span></span><span className="eyebrow">SEMESTER</span></div><div><span className="stat-value">8.34<span>↗</span></span><span className="eyebrow">FIRST YEAR CGPA</span></div><p className="stats-note">One semester at a time.<br />A little further every day.</p></aside>
       </div>
     </section>
   )
