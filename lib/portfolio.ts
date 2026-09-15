@@ -13,6 +13,7 @@ export const navigation = [
   { label: 'About', href: '#about' },
   { label: 'Journey', href: '#journey' },
   { label: 'Skills', href: '#skills' },
+  { label: 'Certifications', href: '#certifications' },
   { label: 'Work', href: '#work' },
   { label: 'Exploring', href: '#exploring' },
   { label: 'GitHub', href: '#github' },
@@ -89,4 +90,17 @@ export const skillGroups = [
   { name: 'Computer science', index: '03', items: ['DSA', 'Algorithms', 'OOP', 'Problem Solving', 'SQL / Database Fundamentals'] },
   { name: 'Tools', index: '04', items: ['Git', 'GitHub', 'VS Code'] },
   { name: 'Currently learning', index: '05', items: ['Java', 'Python', 'DSA', 'Web Development', 'AI / ML'] },
+]
+
+export const certifications = [
+  {
+    name: 'Python for Data Science',
+    issuer: 'NPTEL · IIT MADRAS',
+    courseCode: 'NOC26-CS80',
+    score: 'SCORE 69%',
+    grade: 'ELITE',
+    period: 'JAN–FEB 2026',
+    duration: '4-WEEK COURSE',
+    href: 'https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL26CS80S457303340',
+  },
 ]

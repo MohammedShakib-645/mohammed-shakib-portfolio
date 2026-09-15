@@ -1,7 +1,7 @@
 import { SiteHeader } from '@/components/site-header'
 import { Hero } from '@/components/hero'
 import { PortfolioEffects } from '@/components/portfolio-effects'
-import { AboutSection, AcademicJourney, DevelopmentJourney, GithubSection, AchievementsSection, ContactSection } from '@/components/story-sections'
+import { AboutSection, AcademicJourney, DevelopmentJourney, GithubSection, AchievementsSection, CertificationsSection, ContactSection } from '@/components/story-sections'
 import { CommandPalette } from '@/components/command-palette'
 import { SkillsSection } from '@/components/skills-section'
 import { WorkSection } from '@/components/work-section'
@@ -20,6 +20,7 @@ export default function Page() {
       <AboutSection />
       <AcademicJourney />
       <SkillsSection />
+      <CertificationsSection />
       <WorkSection />
       <ExploringSection />
       <DevelopmentJourney />
