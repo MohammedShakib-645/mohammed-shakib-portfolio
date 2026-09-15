@@ -38,7 +38,7 @@ export function CertificationsSection() {
   return (
     <section id="certifications" className="certifications-section section-pad page-width">
       <div className="section-top" data-reveal><SectionLabel number="04">CERTIFICATIONS</SectionLabel><span className="eyebrow secondary-text">VERIFIED LEARNING.</span></div>
-      <div className="cert-grid">{certifications.map((cert) => <article className="cert-card" data-reveal key={cert.courseCode}><span className="cert-badge"><Award size={24} strokeWidth={1.2} /></span><div><h3>{cert.name}</h3><span className="cert-issuer eyebrow">{cert.issuer}</span><div className="cert-meta"><span className="elite">{cert.grade}</span><span>{cert.score}</span><span>{cert.period}</span><span>{cert.duration}</span><span>{cert.courseCode}</span></div></div><a className="text-link cert-link" href={cert.href} target="_blank" rel="noopener noreferrer">VIEW CERTIFICATE <ArrowUpRight size={17} /></a></article>)}</div>
+      <div className="cert-grid">{certifications.map((cert) => <article className="cert-card" data-reveal key={cert.courseCode}><span className="cert-badge"><Award size={24} strokeWidth={1.2} /></span><div><h3>{cert.name}</h3><span className="cert-issuer eyebrow">{cert.issuer}</span><div className="cert-meta"><span className="elite">{cert.grade}</span><span>{cert.score}</span><span>{cert.period}</span><span>{cert.duration}</span><span>{cert.courseCode}</span></div></div><a className="text-link cert-link" href={cert.href} target="_blank" rel="noopener noreferrer">VIEW ON NPTEL <ArrowUpRight size={17} /></a></article>)}</div>
     </section>
   )
 }

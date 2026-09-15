@@ -101,6 +101,6 @@ export const certifications = [
     grade: 'ELITE',
     period: 'JAN–FEB 2026',
     duration: '4-WEEK COURSE',
-    href: 'https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL26CS80S457303340',
+    href: 'https://onlinecourses.nptel.ac.in/noc26_cs80/preview',
   },
 ]
